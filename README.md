@@ -6,6 +6,6 @@ Tech Bridge is a simple website I made to help my 70-year-old guardian — and o
 
 I noticed that many people in his generation are afraid of using digital tools. So I created a website with basic advice, a free printable guide, and a friendly design.
 
-🔗 Visit the website: https://mishmash16.github.io/tech-bridge
+🔗 Visit the website: https://mign0380723.github.io/tech-bridge
 
 📄 Download the guide: [Click here to open the PDF](guide.pdf)
