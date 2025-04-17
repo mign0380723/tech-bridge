@@ -8,43 +8,45 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
     body {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
       margin: 0;
+      font-family: 'Open Sans', sans-serif;
       background-color: #f9f9f9;
       color: #333;
     }
 
+    /* Header / Navigation */
     header {
-      background-color: #0077cc;
-      padding: 20px 0;
-      text-align: center;
-      color: white;
-    }
-
-    header h1 {
-      margin: 0;
-      font-weight: 600;
+      background-color: #0c152b;
+      padding: 20px 0 0;
     }
 
     nav {
-      background-color: #005fa3;
       display: flex;
       justify-content: center;
-      gap: 30px;
-      padding: 12px 0;
+      gap: 40px;
+      padding: 20px 0;
+      background-color: #0c152b;
     }
 
     nav a {
-      color: white;
+      color: #ffffff;
       text-decoration: none;
-      font-weight: 400;
-      font-size: 16px;
-      transition: opacity 0.2s;
+      font-size: 17px;
+      font-weight: 500;
+      transition: opacity 0.2s ease-in-out;
     }
 
     nav a:hover {
-      opacity: 0.8;
+      opacity: 0.75;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding-bottom: 10px;
+      font-size: 28px;
+      font-weight: 600;
     }
 
     main {
@@ -76,6 +78,7 @@
     p, li {
       font-size: 16px;
       line-height: 1.8;
+      font-weight: 300;
     }
 
     ul {
@@ -83,16 +86,18 @@
     }
 
     footer {
+      background-color: #0c152b;
+      color: white;
       text-align: center;
       font-size: 14px;
-      color: #888;
-      margin: 40px 0 20px;
+      padding: 20px 0;
+      margin-top: 40px;
     }
 
     @media (max-width: 600px) {
       nav {
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
       }
 
       h2 {
@@ -109,14 +114,14 @@
 
   <header>
     <h1>Tech Bridge</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="guide.html">Guide</a>
+      <a href="faq.html">FAQ</a>
+      <a href="tips.html">Tips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="faq.html">FAQ</a>
-    <a href="guide.html">Guide</a>
-    <a href="contact.html">Contact</a>
-  </nav>
 
   <main>
 
@@ -173,7 +178,7 @@
   </main>
 
   <footer>
-    <p>© 2025 Tech Bridge. All rights reserved.</p>
+    <p>Created by Michael Ignatenko · © 2025 Tech Bridge</p>
   </footer>
 
 </body>
