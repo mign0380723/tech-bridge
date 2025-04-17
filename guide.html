@@ -1,169 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Bridge Guide</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Bridge | Guide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
-    <!-- Importing thin Google font and adding styles -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
 
-        body {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 1.8;
-            background-color: #f9f9f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+    header {
+      background-color: #0077cc;
+      padding: 20px 0;
+      text-align: center;
+      color: white;
+    }
 
-        main {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
+    header h1 {
+      margin: 0;
+      font-weight: 600;
+    }
 
-        section {
-            background-color: #fff;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-        }
+    nav {
+      background-color: #005fa3;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 12px 0;
+    }
 
-        h1, h2, h3 {
-            color: #222;
-            margin-top: 0;
-        }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      transition: opacity 0.2s;
+    }
 
-        h1 {
-            font-size: 32px;
-            font-weight: 600;
-            text-align: center;
-            margin-bottom: 30px;
-        }
+    nav a:hover {
+      opacity: 0.8;
+    }
 
-        h2 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-        h3 {
-            font-size: 18px;
-            font-weight: 400;
-            margin-bottom: 10px;
-        }
+    section {
+      background-color: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
 
-        p {
-            margin-bottom: 15px;
-        }
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
 
-        ul {
-            padding-left: 20px;
-            margin-bottom: 15px;
-        }
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
 
-        ul li {
-            margin-bottom: 8px;
-        }
+    p, li {
+      font-size: 16px;
+      line-height: 1.8;
+    }
 
-        footer {
-            text-align: center;
-            font-size: 14px;
-            color: #888;
-            margin: 40px 0;
-        }
+    ul {
+      padding-left: 20px;
+    }
 
-        @media (max-width: 600px) {
-            main {
-                padding: 0 15px;
-            }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      margin: 40px 0 20px;
+    }
 
-            section {
-                padding: 20px;
-            }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
 
-            h1 {
-                font-size: 24px;
-            }
+      h2 {
+        font-size: 20px;
+      }
 
-            h2 {
-                font-size: 20px;
-            }
-
-            h3 {
-                font-size: 16px;
-            }
-        }
-    </style>
+      h3 {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to the Tech Bridge Guide</h1>
-    </header>
+  <header>
+    <h1>Tech Bridge</h1>
+  </header>
 
-    <main>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="faq.html">FAQ</a>
+    <a href="guide.html">Guide</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-        <section id="getting-started">
-            <h2>1. Getting Started with Online Banking</h2>
+  <main>
 
-            <h3>What is Online Banking?</h3>
-            <p>Online banking allows you to access your bank accounts, pay bills, and manage your finances through a secure website or app from your computer or smartphone.</p>
+    <section id="getting-started">
+      <h2>1. Getting Started with Online Banking</h2>
 
-            <h3>Setting Up an Online Banking Account</h3>
-            <ul>
-                <li>Visit your bank’s website to sign up for online banking.</li>
-                <li>Enter your personal details and create a secure password.</li>
-                <li>Verify your identity, which may require submitting some documents.</li>
-            </ul>
+      <h3>What is Online Banking?</h3>
+      <p>Online banking allows you to access your bank accounts, pay bills, and manage your finances through a secure website or app from your computer or smartphone.</p>
 
-            <h3>Logging In Securely</h3>
-            <p>It's important to use a strong password. Consider enabling two-factor authentication for added security.</p>
-        </section>
+      <h3>Setting Up an Online Banking Account</h3>
+      <ul>
+        <li>Visit your bank’s website to sign up for online banking.</li>
+        <li>Enter your personal details and create a secure password.</li>
+        <li>Verify your identity, which may require submitting some documents.</li>
+      </ul>
 
-        <section id="navigating-dashboard">
-            <h2>2. Navigating the Online Banking Dashboard</h2>
+      <h3>Logging In Securely</h3>
+      <p>It's important to use a strong password. Consider enabling two-factor authentication for added security.</p>
+    </section>
 
-            <h3>Overview of the Dashboard</h3>
-            <p>The main banking page will show your account balances, transaction history, payment options, and security settings.</p>
+    <section id="navigating-dashboard">
+      <h2>2. Navigating the Online Banking Dashboard</h2>
 
-            <h3>How to View Your Transactions</h3>
-            <p>To view your transactions, go to the 'Transactions' section and use filters to search by date or amount.</p>
+      <h3>Overview of the Dashboard</h3>
+      <p>The main banking page will show your account balances, transaction history, payment options, and security settings.</p>
 
-            <h3>Making Payments and Transfers</h3>
-            <p>To send money or pay bills, select the payment option and follow the prompts to complete your transaction.</p>
+      <h3>How to View Your Transactions</h3>
+      <p>To view your transactions, go to the 'Transactions' section and use filters to search by date or amount.</p>
 
-            <h3>Setting Up Alerts and Notifications</h3>
-            <p>You can set up alerts for transactions or low balances by going to the 'Settings' section and selecting 'Alerts.'</p>
-        </section>
+      <h3>Making Payments and Transfers</h3>
+      <p>To send money or pay bills, select the payment option and follow the prompts to complete your transaction.</p>
 
-        <section id="staying-safe">
-            <h2>3. Staying Safe While Banking Online</h2>
+      <h3>Setting Up Alerts and Notifications</h3>
+      <p>You can set up alerts for transactions or low balances by going to the 'Settings' section and selecting 'Alerts.'</p>
+    </section>
 
-            <h3>Recognizing Phishing Scams</h3>
-            <ul>
-                <li>Be cautious of emails or messages that ask for personal information.</li>
-                <li>Look for spelling errors or suspicious links in emails.</li>
-                <li>If something seems suspicious, contact your bank directly.</li>
-            </ul>
+    <section id="staying-safe">
+      <h2>3. Staying Safe While Banking Online</h2>
 
-            <h3>Secure Your Computer or Phone</h3>
-            <p>Keep your devices updated with the latest security patches. Use antivirus software and avoid public Wi-Fi when accessing your bank account.</p>
+      <h3>Recognizing Phishing Scams</h3>
+      <ul>
+        <li>Be cautious of emails or messages that ask for personal information.</li>
+        <li>Look for spelling errors or suspicious links in emails.</li>
+        <li>If something seems suspicious, contact your bank directly.</li>
+      </ul>
 
-            <h3>What to Do if You Suspect Fraud</h3>
-            <p>If you notice any unusual activity in your account, report it to your bank immediately. Change your password and follow your bank's instructions for resolving the issue.</p>
-        </section>
+      <h3>Secure Your Computer or Phone</h3>
+      <p>Keep your devices updated with the latest security patches. Use antivirus software and avoid public Wi-Fi when accessing your bank account.</p>
 
-    </main>
+      <h3>What to Do if You Suspect Fraud</h3>
+      <p>If you notice any unusual activity in your account, report it to your bank immediately. Change your password and follow your bank's instructions for resolving the issue.</p>
+    </section>
 
-    <footer>
-        <p>© 2025 Tech Bridge. All rights reserved.</p>
-    </footer>
+  </main>
+
+  <footer>
+    <p>© 2025 Tech Bridge. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
