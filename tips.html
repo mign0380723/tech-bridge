@@ -1,4 +1,131 @@
-<!DOCTYPE html><html><head><link rel='stylesheet' href='styles.css'><title>tips.html</title></head><body>
-<nav class='nav'><a href='index.html'>Home</a><a href='guide.html'>Guide</a><a href='faq.html'>FAQ</a><a href='tips.html'>Tips</a><a href='contact.html'>Contact</a></nav>
-<main class='main-content'><h2>Tips</h2><p>Simple and helpful tips to stay safe online and manage tech better.</p></main>
-<footer><p>Created by Michael Ignatenko · © 2025 Tech Bridge</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Bridge | Tips</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0c152b;
+      padding: 20px 0 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px 0;
+      background-color: #0c152b;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 500;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    nav a:hover {
+      opacity: 0.75;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding-bottom: 10px;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background-color: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #0c152b;
+      color: white;
+      text-align: center;
+      font-size: 14px;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tech Bridge</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="guide.html">Guide</a>
+      <a href="faq.html">FAQ</a>
+      <a href="tips.html">Tips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="security-tips">
+      <h2>1. Security Tips</h2>
+
+      <h3>Keep Your Passwords Strong</h3>
+      <p>Use long, unique passwords with a mix of letters
